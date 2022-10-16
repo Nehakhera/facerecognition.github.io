@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/live.css">
+    <title>Live Video Recognition</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <div id="logo">
+                <img src="./img/logo.png">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About Face Recognition</a></li>
+            <li><a href="/live">Live Video Recognition</a></li>
+            <li><a href="/face">Face detection</a></li>
+            <li><a href="/feature">70 Facial Features</a></li>
+            <li><a href="/exp">Facial Expressions</a></li>
+            <li><a href="/mask">Mask on face recognition</a></li>
+            </div>
+        </ul>
+    </nav>
+    <section id="intro">
+
+
+    </section>
+    <h2>Video Recognition: Real Time Object Detection and Classification</h2>
+    <div class="live">
+        <p class="font">
+            ML based computer vision has significantly matured with focused research to push the state of the art and enterprise investments to build or leverage enterprise ready platform. In terms of functionality, accurate, reliable spatial analysis for object detection and image classification has gradually evolved to spatial-temporal analysis for object state tracking (e.g. human operators) in terms of their form, orientation (e.g. pose of a human operator) and interaction with the environment (e.g. actions of human agents in diverse landscapes). Enterprises platforms for developing comprehensive industry use cases are in development adopting various architectural and technology options.
+        </p><br>
+
+    </div>
+    <div class="explain">
+        <p>ML based computer vision has significantly matured with focused research to push the state of the art and enterprise investments to build or leverage enterprise ready platform. In terms of functionality, accurate, reliable spatial analysis for object detection and image classification has gradually evolved to spatial-temporal analysis for object state tracking (e.g. human operators) in terms of their form, orientation (e.g. pose of a human operator) and interaction with the environment (e.g. actions of human agents in diverse landscapes). Enterprises platforms for developing comprehensive industry use cases are in development adopting various architectural and technology options.</p><br>
+        <h3>What is context?</h3>
+        <p>Early 2010’s saw ML based computer vision approaches advance state-of-the-art in spatial analysis of images i.e. classifying images and detecting objects details within images, in terms of performance, compute cost, and production readiness.
+
+            Algorithms have achieved state-of-the-art results on complex training datasets, general purpose as well as domain specific, powering applications in open and closed loop use cases across industry verticals. Enterprise as well as consumer technology providers are building cutting edge products to detect objects (including faces), classify them, locate them, and measure the number of instances of various object types in the image input.</p><br>
+        <p>By and large, these applications have been for point-in-time image analysis, with little correlation across image frames. This limits the utility of the insights and workflow actions leveraging the outputs of these applications – due to the absence of time dimension in analysis, assessing causality and predicting object state in the image has been missing. One instance where this analysis is of particular interest is observing and analyzing the actions of human operators engaged in various industrial, commercial, and individual tasks over time.</p><br>
+        <h3>What are technology considerations?</h3>
+        <p>The core problem here is object state tracking. Object state is described in two ways. The object form (shape, size, features), orientation, and location in the image are referred to as spatial information. The algorithms mentioned above excel in capturing these attributes in images, even with heavy occlusion (another object, context blocking the object of interest partly), low light, and occasional blur.
+
+            However, we also want to understand how the object state is changing over time. The information showing change in object state over time is called temporal information. Therefore, the solution objective is to analyze and build a state transition model using the spatio-temporal information for the objects in the field of view.</p><br>
+        <p>This typically required a complex algorithm with models working in tandem to perform two main tasks</p><br>
+        <p>1.Identifying and localizing object in scope in the video field of view – this is done using CNN (convolution neural network) based object detection and localization backbone model pipeline</p><br>
+        <p>2. Tracking how the object changes its state (most commonly, form and orientation) – this is done using RNN (Reinforced Neural Network) based model great at tracking changes over time</p><br>
+        <p>Various approaches have been considered and adopted over the last few years. Each one has had its moment in the limelight as the prevalent state of the art and subsequently making way for the next model to take the performance levels even further.
+
+            We will take a closer look at algorithms that comprise these solution approaches later in the series.</p><br>
+        <h3>What are typical applications?</h3>
+        <p><h4>1.Human activity recognition</h4> – Skeleton based activity recognition is useful in ensuring process adherence applications where defined tasks need to be performed in fixed sequence by human operators. The processes can be in the commercial, industrial, and healthcare scenarios. Some possible use cases include:</p><br>
+        <p>1.Industrial manufacturing – assembly line production and finished product <br>
+            2. Retail – merchandizing and shelf stocking, perishable merchandize handling<br>3.Logistics and warehousing – cargo pallet handling (within warehouse), fragile/ precious cargo handling loading and unloading SOP adherence (while transporting)<br>Healthcare – patient care provider monitoring, particularly for critical, trauma cases</p><br>
+        <p><h4>2.Surgical device monitoring and control</h4> – Healthcare applications like endoscopic surgery need video recognition in low light environments with heavy object occlusion between closely packed body organs, blood vessels, etc. Accurate perception for precise control actions on the surgical device is imperative considering the high medical stakes (patient health, longevity) and steep contingent liabilities (insurance and litigation costs due to medical exigencies). This is a close loop process and some aspects that need a robust recognition solution output are:</p><br>
+        <p>1.Monitoring surgical tool usage duration – to estimate remaining useful life and ensure the tools do not reach end-of-life mid surgery<br>2.Ensuring tool usage best practices – to adhere to recommended, safe usage sequence in case of multiple surgical and diagnostic tools in scope<br>3.Recommending next best actions – to assess evolving state transition of surgical activity using video feeds and any other sensor feeds available to suggest actions with success probability scores</p><br>
+
+        <p><h4>3. Autonomous systems perception and control </h4>– Automotive applications like ADAS (particularly L3 and above) as well autonomous industrial equipment handling and navigation applications in challenging ambient conditions need the continuous, accurate perception of the said environment in real time. Only when the edge ML agent has built this accurate state transition model processing the video feeds and can predict with reasonable accuracy and confidence what immediate future states might look like, it will be in a position to make informed control decisions that lead to desired results state.</p><br>
+         <h3>Who is advancing the state of the art?</h3>
+         <p>Video recognition has been in focus for many research groups across the machine learning community across the academic and industry affiliations and academic institutions like Carnegie Mellon University (CMU) and companies like Facebook have contributed via their efforts on and OpenPose and SlowFast Networks. However, the field is still evolving as these solutions become adopted in mainstream enterprise use cases.
+
+            eInfochips is engaged with customers across industries like retail, transportation, and industrial manufacturing in developing ML based solutions using computer vision pipelines for object detection and tracking, activity recognition and pose estimation as well as natural languages processing applications like entity recognition and sentiment analysis. For more information please contact us today.</p><br>
+            <footer id="footer">
+                <p>copyright 2022 © Face Recognition technology.com | All rights reserved</p>
+        
+            </footer>
+    </div>
+</body>
+</html>

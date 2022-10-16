@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/about.css">
+    <title>About Face Recognition</title>
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <div id="logo">
+                <img src="./img/logo.png">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About Face Recognition</a></li>
+            <li><a href="/live">Live Video Recognition</a></li>
+            <li><a href="/face">Face detection</a></li>
+            <li><a href="/feature">70 Facial Features</a></li>
+            <li><a href="/exp">Facial Expressions</a></li>
+            <li><a href="/mask">Mask on face recognition</a></li>
+            </div>
+        </ul>
+    </nav>
+    <h2>Face Recognition</h2>
+    <p>Face recognition is a method of identifying or verifying the identity of an individual using their face. Face recognition systems can be used to identify people in photos, video, or in real-time. Law enforcement may also use mobile devices to identify people during police stops. </p><br>
+    <p>But face recognition data can be prone to error, which can implicate people for crimes they haven’t committed. Facial recognition software is particularly bad at recognizing African Americans and other ethnic minorities, women, and young people, often misidentifying or failing to identify them, disparately impacting certain groups.</p><br>
+    <p>Additionally, face recognition has been used to target people engaging in protected speech. In the near future, face recognition technology will likely become more ubiquitous. It may be used to track individuals’ movements out in the world like automated license plate readers track vehicles by plate numbers. Real-time face recognition is already being used in other countries and even at sporting events in the United States. </p><br>
+    <h3>How Face Recognition Works</h3>
+    <div class="face">
+        <img src="./img/how.png">
+
+    </div>
+    <div class="how">
+    <p>Face recognition systems use computer algorithms to pick out specific, distinctive details about a person’s face. These details, such as distance between the eyes or shape of the chin, are then converted into a mathematical representation and compared to data on other faces collected in a face recognition database. The data about a particular face is often called a face template and is distinct from a photograph because it’s designed to only include certain details that can be used to distinguish one face from another. </p><br>
+    <p>Some face recognition systems, instead of positively identifying an unknown person, are designed to calculate a probability match score between the unknown person and specific face templates stored in the database. These systems will offer up several potential matches, ranked in order of likelihood of correct identification, instead of just returning a single result. </p><br>
+    <p>Face recognition systems vary in their ability to identify people under challenging conditions such as poor lighting, low quality image resolution, and suboptimal angle of view (such as in a photograph taken from above looking down on an unknown person).
+
+        When it comes to errors, there are two key concepts to understand: 
+        
+        A “false negative” is when the face recognition system fails to match a person’s face to an image that is, in fact, contained in a database. In other words, the system will erroneously return zero results in response to a query.</p><br>
+    <p>A “false positive” is when the face recognition system does match a person’s face to an image in a database, but that match is actually incorrect. This is when a police officer submits an image of “Joe,” but the system erroneously tells the officer that the photo is of “Jack.” </p><br>
+    <p>When researching a face recognition system, it is important to look closely at the “false positive” rate and the “false negative” rate, since there is almost always a trade-off. For example, if you are using face recognition to unlock your phone, it is better if the system fails to identify you a few times (false negative) than it is for the system to misidentify other people as you and lets those people unlock your phone (false positive). If the result of a misidentification is that an innocent person goes to jail (like a misidentification in a mugshot database), then the system should be designed to have as few false positives as possible. </p><br>
+    </div>
+    <div class="threat">
+        <h3>Threats Posed By Face Recognition</h3>
+        <p>Face recognition data is easy for law enforcement to collect and hard for members of the public to avoid. Faces are in public all of the time, but unlike passwords, people can’t easily change their faces. We are seeing increased information-sharing among agencies. Cameras are getting more powerful and technology is rapidly improving.</p><br>
+        <p>Face recognition data is often derived from mugshot images, which are taken upon arrest, before a judge ever has a chance to determine guilt or innocence. Mugshot photos are often never removed from the database, even if the arrestee has never had charges brought against them.
+
+            In spite of face recognition’s ubiquity and the improvement in technology, face recognition data is prone to error. In fact, the FBI admitted in its privacy impact assessment that its system “may not be sufficiently reliable to accurately locate other photos of the same identity, resulting in an increased percentage of misidentifications.” Although the FBI purports its system can find the true candidate in the top 50 profiles 85% of the time, that’s only the case when the true candidate exists in the gallery. If the candidate is not in the gallery, it is quite possible the system will still produce one or more potential matches, creating false positive results. These people—who aren’t the candidate—could then become suspects for crimes they didn’t commit. An inaccurate system like this shifts the traditional burden of proof away from the government and forces people to try to prove their innocence.</p><br>
+        <p>
+        Face recognition gets worse as the number of people in the database increases. This is because so many people in the world look alike. As the likelihood of similar faces increases, matching accuracy decreases. 
+
+        Face recognition software is especially bad at recognizing African Americans. A 2012 study [.pdf] co-authored by the FBI showed that accuracy rates for African Americans were lower than for other demographics. Face recognition software also misidentifies other ethnic minorities, young people, and women at higher rates. Criminal databases include a disproportionate number of African Americans, Latinos, and immigrants, due in part to racially biased police practices. Therefore the use of face recognition technology has a disparate impact on people of color.
+        
+        Some argue that human backup identification (a person who verifies the computer’s identification) can counteract false positives. However, research shows that, if people lack specialized training, they make the wrong decisions about whether a candidate photo is a match about half the time. Unfortunately, few systems have specialized personnel review and narrow down potential matches.</p><br>
+        <p>
+            Face recognition can be used to target people engaging in protected speech. For example, during protests surrounding the death of Freddie Gray, the Baltimore Police Department ran social media photos through face recognition to identify protesters and arrest them. Of the 52 agencies analyzed in a report by Georgetown Center on Privacy and Technology , only one agency, the Ohio Bureau of Criminal Investigation, has a face recognition policy expressly prohibiting the use of the technology to track individuals engaged in protected free speech. 
+        </p><br>
+    </div>
+    <footer id="footer">
+        <p>copyright 2022 © Face Recognition technology.com | All rights reserved</p>
+
+    </footer>
+
+
+</body>
+</html>

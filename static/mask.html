@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/mask.css">
+    <title>Mask on recognition</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <div id="logo">
+                <img src="./img/logo.png">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About Face Recognition</a></li>
+            <li><a href="/live">Live Video Recognition</a></li>
+            <li><a href="/face">Face detection</a></li>
+            <li><a href="/feature">70 Facial Features</a></li>
+            <li><a href="/exp">Facial Expressions</a></li>
+            <li><a href="/mask">Mask on face recognition</a></li>
+            </div>
+        </ul>
+    </nav>
+    <div class="All">
+    <div class="mask">
+        <h2>Mask on face detection</h2>
+        <p>FaceSDK automatically detects faces covered by masks in stills and videos. This feature can be used to precisely detect all faces, including those covered by masks, as well as to detect whether a person is wearing a mask for security and pandemic-fighting purposes. See code and parameters for a quick setup.</p><br>
+        <p>A masked face recognition algorithm based on attention mechanism is proposed in the paper, in order to improve the face recognition rate of masks. First, the masked image is separated by local constrained dictionary learning method; that is, the mask and the face image are separated. Then, dilated convolution is adopted to reduce the problem of resolution reduction in the process of subsampling, and an attention mechanism is designed to reduce information loss in the process of subsampling. Finally, according to the important feature information of the face image, the attention mechanism neural network algorithm is used for face recognition.</p><br>
+        <img src="./img/mask.png">
+        <p>Below given video shows us the way to detect face of a human wearing mask.</p>
+        <iframe class="video" width="750" height="380" src="https://www.youtube.com/embed/IOI0o3Cxv9Q" title="Real Time Face Mask Detection with Tensorflow and Python | Custom Object Detection w/ MobileNet SSD" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+    </div>
+    </div>
+    <footer id="footer">
+        <p>copyright 2022 © Face Recognition technology.com | All rights reserved</p>
+
+    </footer>
+    
+</body>
+</html>
